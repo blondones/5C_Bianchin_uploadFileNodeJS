@@ -3,7 +3,8 @@ const http = require('http');
 const path = require('path');
 const app = express();
 const multer  = require('multer');
-var storage = multer.diskStorage({
+
+let storage = multer.diskStorage({
     destination: function (req, file, callback) {
         callback(null, path.join(__dirname, "files"));
     },
