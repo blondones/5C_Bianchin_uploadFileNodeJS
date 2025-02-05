@@ -1,0 +1,23 @@
+{
+  "name": "5c_bianchin_uploadfilenodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blondones/5C_Bianchin_uploadFileNodeJS.git"
+  },
+  "author": "blondones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blondones/5C_Bianchin_uploadFileNodeJS/issues"
+  },
+  "homepage": "https://github.com/blondones/5C_Bianchin_uploadFileNodeJS#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
