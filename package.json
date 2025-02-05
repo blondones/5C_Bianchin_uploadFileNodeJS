@@ -17,7 +17,11 @@
   "homepage": "https://github.com/blondones/5C_Bianchin_uploadFileNodeJS#readme",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.2",
-    "multer": "^1.4.5-lts.1"
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
   }
 }
